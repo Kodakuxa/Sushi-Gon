@@ -28,7 +28,7 @@ npm install
 yarn install
 ```
 
-3. Iniciar el servidor de desarrollo (Vite — HMR):
+3. Iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -65,7 +65,7 @@ npm run dev
 └─ README.md
 ```
 
-Descripción breve de carpetas principales:
+Descripción breve de las carpetas principales:
 
 - `components/Platillos`: catálogo y componentes de producto (`TodoPlatillos`, `ProductosItem`, formularios de selección).
 - `components/Login`: `Login.jsx` y `SignUp.jsx` — formularios con validación usando `react-hook-form`.
@@ -88,6 +88,10 @@ Descripción breve de carpetas principales:
 - Menú
 
 <img width="1871" height="904" alt="image" src="https://github.com/user-attachments/assets/04935769-eff3-445f-833a-a5dd01b127b7" />
+
+- Carrito de compras
+
+<img width="1884" height="903" alt="image" src="https://github.com/user-attachments/assets/17a0c025-7f41-4935-88c5-f74aa8981a17" />
 
 - Login
 
