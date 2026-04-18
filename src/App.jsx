@@ -5,7 +5,7 @@ import Cart from './components/Cart/Cart';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import Login from './components/Login/Login';
 import SignUp from './components/Login/SignUp';
-import ErrorBoundary from './components/ErrorBoundary';
+// ErrorBoundary removed — SignUp rendered directly
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
@@ -25,11 +25,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/registrarse" element={
-            <ErrorBoundary>
-              <SignUp />
-            </ErrorBoundary>
-          } />
+          <Route path="/registrarse" element={<SignUp />} />
           <Route path="/menu" element={<TodoPlatillos />} />
           <Route path="/*" element={<Navigate to="/menu" />} />
 
